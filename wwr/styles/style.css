@@ -1,0 +1,101 @@
+div {
+    max-width: 1600px;
+}
+#content {
+    text-align: center;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+nav a  {
+    text-align: center;
+}
+#hero-msg h1 {
+    text-align: center;
+}
+#hero-msg h4 {
+    text-align: center;
+}
+.button-box {
+    text-align: center;
+}
+main section {
+    text-align: center;
+}
+
+#background {
+    height: 725px;
+}
+body {
+    background-color: #d6e3bcfb; 
+}
+header {
+    text-align: center;
+    background-color:rgba(149, 175, 127, 0.7);
+}
+nav a:hover {
+    background-color: rgba(71, 123, 23, 0.7);
+}
+.book, .join {
+    background-color: rgba(149, 175, 127, 0.7);
+}
+.book:hover, .join:hover {
+    background-color: rgba(149, 175, 127, 0.7);
+}
+#background {
+    background-color: rgba(149, 175, 127, 0.7);
+}
+.msg {
+    background-color: rgba(149, 175, 127, 0.7);
+}
+footer {
+    text-align: center;
+    background-color: rgba(149, 175, 127, 0.7);
+}
+nav a {
+    background-color: rgba(234, 247, 223, 0.7);
+}
+.home-title {
+    background-color: #d6e3bcfb;
+}
+h4 {
+    background-color: #d6e3bcfb;
+}
+.msg h2 {
+    background-color: rgba(149, 171, 117, 0.7);
+}
+.msg p {
+    background-color: rgba(149, 175, 127, 0.7);
+}
+footer h3 {
+    background-color: rgba(149, 175, 127, 0.7);
+}
+footer a {
+    background-color: rgba(149, 175, 127, 0.7);
+}
+footer a:hover {
+    background-color: #d6e3bcfb;
+}
+.icon {
+    width: 100px;
+}
+nav a {
+    text-align: center;
+    color: #0c1b01b6;
+    text-decoration: none;
+}    
+.book, .join {
+    text-align: center;
+    color: #0c1b01b6;
+    text-decoration: none;
+}    
+footer a {
+    text-align: center;
+    color: #3a2d2d;
+    text-decoration: none;
+}    
+footer p {
+    font-size: 1.2em;
+}    
+footer p a:hover {
+    text-decoration: underline;
+}   
