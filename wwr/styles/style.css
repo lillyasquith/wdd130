@@ -26,7 +26,6 @@ nav {
 }
 nav a {
     text-align: center;
-    background-color: none;
     color: aliceblue;
     text-decoration: none;
     padding: 35px;
@@ -85,6 +84,9 @@ h2 {
     margin-top: 50px;
     border-radius: 5px;
 }
+.book:hover, .join:hover {
+    background-color: white;
+}
 main section img {
     box-sizing: border-box;
 }
@@ -115,9 +117,7 @@ main section img {
     grid-column: 8/10;
     grid-row: 2/3;
 }
-.book:hover, .join:hover {
-    background-color: white;
-}
+
 #background {
     background-color: #546A7B;
     grid-column: 1/11;
@@ -149,7 +149,6 @@ main section img {
 }
 h4 {
     color: aliceblue;
-    background-color: none;
     font-size: 1em;
 }
 .msg h2 {
@@ -190,24 +189,58 @@ footer p {
 footer p a:hover {
     text-decoration: underline;
 } 
-.river-img {
-    size: 100%;
+.river-1, .river-2, .river-3 {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 1/2;
-    grid-row: 1/3;
-    align-items: left;
+    grid-template-columns: 1fr 1fr 40px;
+    grid-template-rows: auto auto;
 
 }
-.river-tile {
-    display: flex;
-    justify-content: space-around;
-    align-items: center
-    /* display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column: 2/3;
+.rivers-img {
+    grid-column: 1/2;
     grid-row: 1/3;
-    align-items: right; */
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.rivers-title {
+    width: 100%;
+    display: flex;
+    grid-column: 2/3;
+    grid-row: 1/2;
+    margin-top: 80px;
+    margin-bottom: 50px;
+    margin-left: -100px;
+}
+.rivers-p {
+    width: 100%;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    margin-top: -100px;
+    margin-bottom: 50px;
+    margin-left: -100px;
+    margin-right: 5px;
+    text-align: left;
+
+}
+.star {
+    width: 100%;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: -5px;
+}
+.book {
+    font-size: 18px;
+    text-align: center;
+    background-color: whitesmoke;
+    color: black;
+    text-decoration: none;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
+}
+.book:hover {
+    background-color: wheat;
 }
 
 @media screen and (max-width: 900px) {
