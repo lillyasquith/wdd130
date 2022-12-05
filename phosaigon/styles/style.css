@@ -156,19 +156,20 @@ footer {
     justify-content: space-around;
     align-items: center;
 }
-footer .social img {
-    padding-top: 10px;
-}
 footer .social img:hover {
+    padding-top: 15px;
     background-color:#15616D;
     transform: scale(1.1);
     box-shadow: 5px 5px 10px #6f7364;
 }
-footer a {
+.plan, .contact {
     background-color:#FFECD1;
     padding: 30px;
     color: #78290F;
     text-decoration: none;
+}
+footer a {
+    text-decoration: none;  
 }
 footer a:hover {
     background-color:whitesmoke;
